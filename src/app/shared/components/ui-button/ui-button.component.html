@@ -1,0 +1,13 @@
+<button
+  ui-ripple
+  [disabled]="disabled"
+  class="flat-button flat-button-primary"
+  [ngClass]="{
+    'flat-button-basic': color=='basic',
+    'flat-button-primary': color=='primary',
+    'flat-button-accent': color=='accent',
+    'flat-button-warn': color=='warn',
+    'flat-button-disabled': disabled
+  }">
+  <span>{{ label }}</span>
+</button>

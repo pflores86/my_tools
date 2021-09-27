@@ -1,0 +1,20 @@
+<ui-card>
+  <div ui-card-subtitle>class: {{ starship?.starship_class }}</div>
+  <div ui-card-title>{{ starship?.name }}</div>
+  <div ui-card-content>
+    <p>MGLT: {{ starship.mglt }}</p>
+    <p>Cargo capacity: {{ starship.cargo_capacity }}</p>
+    <p>Consumables: {{ starship.consumables }}</p>
+    <p>Costs in credits: {{ starship.costs_in_credits }}</p>
+    <p>Crew: {{ starship.crew }}</p>
+    <p>Hyperdrive rating: {{ starship.hyperdrive_rating }}</p>
+    <p>Length: {{ starship.length }}</p>
+    <p>Manufacturer: {{ starship.manufacturer }}</p>
+    <p>Max atmosphering speed: {{ starship.max_atmosphering_speed }}</p>
+    <p>Model: {{ starship.model }}</p>
+    <p>Passengers: {{ starship.passengers }}</p>
+  </div>
+  <div ui-card-actions>
+    <ui-button label="LIKE" color="primary"(click)="setearLike()"></ui-button>
+  </div>
+</ui-card>

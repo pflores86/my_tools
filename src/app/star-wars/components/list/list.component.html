@@ -1,0 +1,12 @@
+<div class="grid" *ngIf="type=='people'">
+  <app-people *ngFor="let it of items" [people]="it">
+  </app-people>
+</div>
+<div class="grid" *ngIf="type=='starships'">
+  <app-starships *ngFor="let it of items" [starship]="it">
+  </app-starships>
+</div>
+<div class="grid" *ngIf="type=='planets'">
+  <app-planets *ngFor="let it of items" [planet]="it">
+  </app-planets>
+</div>

@@ -1,0 +1,53 @@
+/*Flat button styles*/
+.flat-button {
+  box-sizing: border-box;
+  /*position: relative;*/
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  -webkit-tap-highlight-color: transparent;
+  display: inline-block;
+  white-space: nowrap;
+  text-decoration: none;
+  vertical-align: baseline;
+  text-align: center;
+  margin: 0;
+  min-width: 64px;
+  line-height: 36px;
+  padding: 0 16px;
+  border-radius: 4px;
+  /*overflow: visible;*/
+  font-family: Roboto,Helvetica Neue,sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  margin: 8px 8px 8px 0;
+}
+
+.flat-button-basic {
+  color: rgba(0,0,0,.87);
+  background-color: #fff;
+}
+
+.flat-button-primary {
+  color: #fff;
+  background-color: #3f51b5;
+}
+
+.flat-button-accent {
+  color: #fff;
+  background-color: #ff4081;
+}
+
+.flat-button-warn {
+  color: #fff;
+  background-color: #f44336;
+}
+
+.flat-button-disabled {
+  color: rgba(0,0,0,.26);
+  background-color: rgba(0,0,0,.12);
+}

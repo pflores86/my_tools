@@ -1,0 +1,15 @@
+<ui-card>
+  <div ui-card-subtitle>terrain: {{ planet?.terrain }}</div>
+  <div ui-card-title>{{ planet?.name }}</div>
+  <div ui-card-content>
+    <p>Climate: {{ planet.climate }}</p>
+    <p>Diameter: {{ planet.diameter }}</p>
+    <p>Gravity: {{ planet.gravity }}</p>
+    <p>Orbital period: {{ planet.orbital_period }}</p>
+    <p>Population: {{ planet.population }}</p>
+    <p>Rotation period: {{ planet.rotation_period }}</p>
+  </div>
+  <div ui-card-actions>
+    <ui-button label="LIKE" color="primary"(click)="setearLike()"></ui-button>
+  </div>
+</ui-card>
